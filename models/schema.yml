@@ -133,4 +133,10 @@ models:
           column_name: date_date
       - not_null:
           column_name: date_date
+  - name: finance_campaigns_day
+    tests:
+      - unique:
+          column_name: date_date
+      - not_null:
+          column_name: date_date
   
