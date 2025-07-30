@@ -48,3 +48,75 @@ sources:
              description: logistic cost
            - name: ship_cost
              description: shipping cost
+       - name: adwords
+         identifier: raw_gz_adwords
+         description: greenweez ad campaign adwords
+         columns:
+           - name: date_date
+             description: date of the campaign
+           - name: paid_source
+             description: paid source 
+           - name: campaign_key
+             description: campaign key code
+           - name: camPGN_name
+             description: campaign name
+           - name: ads_cost
+             description: cost of the ads
+           - name: impression
+             description: number of views of the campaign
+           - name: click
+             description: number of clicks
+       - name: bing
+         identifier: raw_gz_bing
+         description: greenweez ad campaign bing
+         columns:
+           - name: date_date
+             description: date of the campaign
+           - name: paid_source
+             description: paid source 
+           - name: campaign_key
+             description: campaign key code
+           - name: camPGN_name
+             description: campaign name
+           - name: ads_cost
+             description: cost of the ads
+           - name: impression
+             description: number of views of the campaign
+           - name: click
+             description: number of clicks
+       - name: criteo
+         identifier: raw_gz_criteo
+         description: greenweez ad campaign criteo
+         columns:
+           - name: date_date
+             description: date of the campaign
+           - name: paid_source
+             description: paid source 
+           - name: campaign_key
+             description: campaign key code
+           - name: camPGN_name
+             description: campaign name
+           - name: ads_cost
+             description: cost of the ads
+           - name: impression
+             description: number of views of the campaign
+           - name: click
+             description: number of clicks
+       - name: facebook
+         identifier: raw_gz_facebook
+         description: greenweez ad campaign facebook
+         columns:
+           - name: date_date
+             description: date of the campaign
+           - name: paid_source
+             description: paid source 
+           - name: campaign_key
+             description: campaign key code
+           - name: camPGN_name
+             description: campaign name
+           - name: ads_cost
+             description: cost of the ads
+           - name: impression
+             description: number of views of the campaign
+           - name: click
+             description: number of clicks
